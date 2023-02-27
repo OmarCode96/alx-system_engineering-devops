@@ -1,3 +1,4 @@
 #!/bin/bash
-for file in $(find . -type d -maxdepth 1); do chmod ugo+x,ug+s $file
+chmod 444 -R --reference=file
+
 					      
